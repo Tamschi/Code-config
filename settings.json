@@ -1,4 +1,5 @@
 {
+    "debug.console.fontFamily": "Consolas, 'Courier New', monospace",
     "files.autoSave": "afterDelay",
     "terminal.integrated.shell.windows": "nu.exe",
     "terminal.integrated.automationShell.windows": "cmd.exe",
@@ -96,5 +97,5 @@
         "error",
         "warning",
         "info"
-    ],
+    ]
 }
