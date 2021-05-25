@@ -20,7 +20,8 @@
     },
     {
         "key": "f1",
-        "command": "rust-analyzer.openDocs"
+        "command": "rust-analyzer.openDocs",
+        "when": "editorLangId == rust"
     },
     {
         "key": "ctrl+f1",
@@ -39,5 +40,10 @@
         "key": "alt+up",
         "command": "-workbench.action.debug.start",
         "when": "!inDebugMode"
+    },
+    {
+        "key": "Enter",
+        "command": "rust-analyzer.onEnter",
+        "when": "editorTextFocus && !suggestWidgetVisible && editorLangId == rust"
     }
 ]
