@@ -1,0 +1,16 @@
+{
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "todo-tree.tree.showScanModeButton": false,
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "Merryweather, Consolas, 'Courier New', monospace",
+    "debug.console.fontFamily": "Consolas, 'Courier New', monospace",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "rust-analyzer.procMacro.enable": true,
+    "errorLens.enabledDiagnosticLevels": [
+        "error",
+        "warning",
+        "info"
+    ],
+    "editor.renderControlCharacters": true
+}
