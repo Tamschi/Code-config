@@ -97,5 +97,6 @@
         "error",
         "warning",
         "info"
-    ]
+    ],
+    "rust-analyzer.experimental.procAttrMacros": true
 }
